@@ -6,6 +6,8 @@ Permite ejecutar comandos HTTP sobre la red local (LAN), visualizar el estado de
 ---
 
 ## Estructura del proyecto
+
+```bash
 pg401_pyqt/
 ├── main.py
 ├── ui/
@@ -21,7 +23,7 @@ pg401_pyqt/
 ├── requirements.txt
 ├── pdf
 └── README.md
-
+```
 ---
 
 ## Requisitos
@@ -65,7 +67,7 @@ El log de eventos se guarda automáticamente para trazabilidad y diagnóstico.
 ---
 
 ## Resumen técnico del proyecto
-![Texto alternativo](pdf/FSM-resume.png)
+![Texto alternativo](pg401_pyqt/pdf/FSM-resume.png)
 
 ---
 
