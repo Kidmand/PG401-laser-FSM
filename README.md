@@ -67,7 +67,7 @@ El log de eventos se guarda automáticamente para trazabilidad y diagnóstico.
 ---
 
 ## Resumen técnico del proyecto
-![Texto alternativo](pg401_pyqt/pdf/FSM-resume.png)
+![Texto alternativo](pg401_pyqt/assets/FSM-resume.png)
 
 ---
 
