@@ -57,7 +57,11 @@ DATA — Leer datos crudos de sensores
 
 Todos los comandos son enviados en formato RESTful al servidor 
 ```bash
-http://<ip_del_laser>:8080/REST/HTTP_CMD/?.
+http://<ip_del_laser>:8081/REST/HTTP_CMD/?.
+```
+Para obtener información de los registros que maneja el láser se usa
+```bash
+http://<ip_del_laser>:8080/.
 ``` 
 
 ---
