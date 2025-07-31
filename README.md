@@ -71,7 +71,10 @@ El log de eventos se guarda automáticamente para trazabilidad y diagnóstico.
 
 ---
 
-## Autor
+## Supervisor
+Luis Biedna
+
+## Desarrollador
 Daián Giménez García
 
 UNC famaf
