@@ -80,13 +80,14 @@ El log de eventos se guarda automáticamente para trazabilidad y diagnóstico.
 
 ## Supervisor
 Luis Ariel Biedma
+UNC-Famaf
 
 lbiedma@unc.edu.ar
 
 ## Desarrollador
 Daián Giménez García
 
-UNC famaf
+UNC-Famaf
 
 daian.gimenez@mi.un.edu.ar
 
