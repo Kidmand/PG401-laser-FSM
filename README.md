@@ -55,7 +55,10 @@ LIST — Listar secuencias disponibles
 CES — Consultar el estado de ejecución de un comando
 DATA — Leer datos crudos de sensores
 
-Todos los comandos son enviados en formato RESTful al servidor http://<ip_del_laser>:8081/REST/HTTP_CMD/?.
+Todos los comandos son enviados en formato RESTful al servidor 
+```bash
+http://<ip_del_laser>:8080/REST/HTTP_CMD/?.
+``` 
 
 ---
 
@@ -72,7 +75,9 @@ El log de eventos se guarda automáticamente para trazabilidad y diagnóstico.
 ---
 
 ## Supervisor
-Luis Biedna
+Luis Ariel Biedma
+
+lbiedma@unc.edu.ar
 
 ## Desarrollador
 Daián Giménez García
