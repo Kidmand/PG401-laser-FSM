@@ -80,6 +80,7 @@ El log de eventos se guarda automáticamente para trazabilidad y diagnóstico.
 
 ## Supervisor
 Luis Ariel Biedma
+
 UNC-Famaf
 
 lbiedma@unc.edu.ar
