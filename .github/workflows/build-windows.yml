@@ -25,7 +25,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile pg401_pyqt/main.py --name PG401LaserApp --paths pg401_pyqt
+          pyinstaller --onefile pg401_pyqt/__main__.py --name PG401LaserApp --paths pg401_pyqt
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
