@@ -28,10 +28,12 @@ NV: yes
 Formato: %.7gnm
 Error: (0) Success, no error
 Value: {current_wavelength['value'] if current_wavelength['value'] is not None else 0.0}
+Ariel: Este es un mensaje para Ariel.
+
 """
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.11', port=8081)
+    app.run(host='0.0.0.0', port=8080)
 
 
 
