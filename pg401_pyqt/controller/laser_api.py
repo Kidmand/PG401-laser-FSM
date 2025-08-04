@@ -5,11 +5,14 @@ from pg401_pyqt.controller.response_handler import parse_ces_response
 from pg401_pyqt.utils.logger import logger
 import time
 
-IP = "192.168.0.160"
+#IP = "192.168.0.160"
 LAN_IP = "192.254.224.164"
-IP_MOCK = "abaab562dceb.ngrok-free.app"
-URL_BASE = f"https://{IP_MOCK}/REST/HTTP_CMD/?"
-URL_WAVE = f"https://{IP_MOCK}/MaxiOPG/33/WaveLength"
+#IP_MOCK = "abaab562dceb.ngrok-free.app"
+#URL_BASE = f"https://{IP_MOCK}/REST/HTTP_CMD/?"
+#URL_WAVE = f"https://{IP_MOCK}/MaxiOPG/33/WaveLength"
+LAN_IP = "192.254.224.164"
+URL_BASE = f"http://{LAN_IP}:8081/REST/HTTP_CMD/?"
+URL_WAVE = f"http://{LAN_IP}:8080/MaxiOPG/33/WaveLength"
 
 
 def list_command(query: List, time: float = None):
