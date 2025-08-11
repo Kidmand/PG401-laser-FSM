@@ -11,7 +11,7 @@ class Exe(Enum):
     STOP = "EXE/Stop"
     FIRE = "EXE/Fire"
     AMPLIFICATION = "EXE/Amplification/"
-    WAVELENGTH = "EXE/SetWaveLengthPG401/"
+    WAVELENGTH = "EXE/SetWavelengthPG401/"
 
 class Rdvar(Enum):
     STATE = "RDVAR/State"
