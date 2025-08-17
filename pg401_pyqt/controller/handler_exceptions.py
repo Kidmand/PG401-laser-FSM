@@ -22,7 +22,7 @@ def validate_wave_params(range_init_nm: float, range_end_nm: float, step_nm: flo
         raise ValueError(f"Longitud de onda inicial fuera de rango: {range_init_nm} nm (debe estar entre 210 y 2300)")
     if not (210 <= range_end_nm <= 2300):
         raise ValueError(f"Longitud de onda final fuera de rango: {range_end_nm} nm (debe estar entre 210 y 2300)")
-    if not (0.1 <= step_nm <= 50):
-        raise ValueError(f"Step fuera de rango: {step_nm} nm (debe estar entre 0.1 y 50)")
+    if not (0.01 <= step_nm <= 50):
+        raise ValueError(f"Step fuera de rango: {step_nm} nm (debe estar entre 0.01 y 50)")
     if not (0.1 <= time_s <= 30):
         raise ValueError(f"Tiempo de espera fuera de rango: {time_s} s (debe estar entre 0.1 y 30)")
